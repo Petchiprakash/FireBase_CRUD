@@ -7,11 +7,11 @@
     tools:context=".ReadActivity">
 
     <EditText
-        android:id="@+id/etPhoneNo"
+        android:id="@+id/etLastName"
         android:layout_width="306dp"
         android:layout_height="48dp"
-        android:hint="@string/phone_number"
-        android:inputType="phone"
+        android:hint="@string/last_name"
+        android:inputType="textCapWords"
         app:layout_constraintBottom_toTopOf="@+id/btnRead"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -28,7 +28,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
